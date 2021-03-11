@@ -5,4 +5,7 @@
 - [Fama French Factors](./_00_Data/factors.csv)
 
 ### Modeling Strategies 🛠
-- [CVAR Optimization](./_01_Model/model.md)
+- [CVAR Optimization](./_01_Model/cvar.md)
+- [Classic Mean Variance Optimization](./_01_Model/mvo.md)
+- [Stocastic Mean Variance Optimization](./_01_Model/stocastic_mvo.md)
+
