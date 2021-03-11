@@ -4,6 +4,9 @@
 - [Adjusted Close Price](./_00_Data/adjClose.csv)
 - [Fama French Factors](./_00_Data/factors.csv)
 
+### Parameter Estimation 🎯
+- [Carhart Four Factor Model](./_01_Model/carhart.md)
+
 ### Modeling Strategies 🛠
 - [CVAR Optimization](./_01_Model/cvar.md)
 - [Classic Mean-Variance Optimization](./_01_Model/mvo.md)
