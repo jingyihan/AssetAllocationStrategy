@@ -2,7 +2,7 @@
 
 ### Data 📃
 - [Adjusted Close Price](./_00_Data/adjClose.csv)
-- [Fama French Factors](./_00_Data/factors.csv)
+- [Fama-French Factors](./_00_Data/factors.csv)
 
 ### Parameter Estimation 🎯
 - [Carhart Four Factor Model](./_01_Model/carhart.md)
