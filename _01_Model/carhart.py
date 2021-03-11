@@ -72,8 +72,8 @@ def estimate(prices: pd.DataFrame, factors: pd.DataFrame):
 
 def test():
     """run this function to test"""
-    prices = pd.read_csv("../data/adjClose.csv", index_col=["date"])
-    factors = pd.read_csv("../data/factors.csv", index_col=["Date"])
+    prices = pd.read_csv("../_00_Data/adjClose.csv", index_col=["date"])
+    factors = pd.read_csv("../_00_Data/factors.csv", index_col=["Date"])
     mu, Q = estimate(prices, factors)
     # check one example
     assert mu == []
