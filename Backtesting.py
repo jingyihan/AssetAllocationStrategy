@@ -25,8 +25,8 @@ params = {'legend.fontsize': 10,
          'ytick.labelsize': 10}
 pylab.rcParams.update(params)
 
-prices_org = pd.read_csv("00_Data\adjClose.csv")
-factor_org = pd.read_csv("00_Data\factors.csv")
+prices_org = pd.read_csv("../00_Data/adjClose.csv")
+factor_org = pd.read_csv("../00_Data/factors.csv")
 factor_org = factor_org.dropna()
 
 dt = 12
