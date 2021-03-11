@@ -7,9 +7,9 @@ from carhart import carhart
 
 from scipy.linalg import cholesky, block_diag
 from statsmodels.stats.moment_helpers import cov2corr
-from stochastic_mvo import stochastic_mvo
-from mvo import mvo
-from cvar_2 import CVaR
+from _01_Model.stochastic_mvo import stochastic_mvo
+from _01_Model.mvo import mvo
+from _01_Model.cvar_2 import CVaR
 
 import cvxpy as cvx
 
@@ -25,8 +25,8 @@ params = {'legend.fontsize': 10,
          'ytick.labelsize': 10}
 pylab.rcParams.update(params)
 
-prices_org = pd.read_csv("adjClose.csv")
-factor_org = pd.read_csv("factors.csv")
+prices_org = pd.read_csv("00_Data\adjClose.csv")
+factor_org = pd.read_csv("00_Data\factors.csv")
 factor_org = factor_org.dropna()
 
 dt = 12
