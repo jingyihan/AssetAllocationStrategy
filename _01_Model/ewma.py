@@ -15,8 +15,8 @@ params = {'legend.fontsize': 10,
          'ytick.labelsize': 10}
 pylab.rcParams.update(params)
 
-prices_org = pd.read_csv("adjClose.csv")
-factor_org = pd.read_csv("factors.csv")
+prices_org = pd.read_csv("../_00_Data/adjClose.csv")
+factor_org = pd.read_csv("../_00_Data/factors.csv")
 riskfree = factor_org.loc[:,'RF']
 riskfree = riskfree.reset_index(drop=True)
 
