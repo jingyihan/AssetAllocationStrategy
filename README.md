@@ -6,6 +6,6 @@
 
 ### Modeling Strategies 🛠
 - [CVAR Optimization](./_01_Model/cvar.md)
-- [Classic Mean Variance Optimization](./_01_Model/mvo.md)
-- [Stocastic Mean Variance Optimization](./_01_Model/stocastic_mvo.md)
+- [Classic Mean-Variance Optimization](./_01_Model/mvo.md)
+- [Stocastic Mean-Variance Optimization](./_01_Model/stocastic_mvo.md)
 
