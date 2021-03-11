@@ -1,4 +1,4 @@
-## AssetAllocationStrategy
+## Portfolio Asset Allocation Strategy
 
 ### Data 📃
 - [Adjusted Close Price](./_00_Data/adjClose.csv)
