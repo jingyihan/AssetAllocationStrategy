@@ -1,4 +1,4 @@
 ## AssetAllocationStrategy
 
 ### Modeling Strategies
-- [CVAR](./_01_model/model.md)
+- [CVAR Optimization](./_01_Model/model.md)
