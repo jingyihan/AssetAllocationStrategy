@@ -1,4 +1,5 @@
 ## Portfolio Asset Allocation Strategy
+The portfolio managment project compares the performance of three investment strategies using optimization models. Please click on the link below for detail formuations.
 
 ### Data 📃
 - [Adjusted Close Price](./_00_Data/adjClose.csv)
